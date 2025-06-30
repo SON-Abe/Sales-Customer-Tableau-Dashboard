@@ -20,7 +20,6 @@ To create a dashboard for a client I usually follow this diagram that seperates 
 
 The diagram I purpose to display the total sales, profit, quantity, and % difference over last year is a bans chart because I believe it displays the data in a simple and exact manner.
 
-
 ##### Sales Trends
 - Display data for each KPI over the current and previous year on top of each other for easy comparison on a monthly basis.
 - highlight highest and lowest performing months for easy recognition.
@@ -33,14 +32,13 @@ For displaying the key metrics on a monthly basis I chose sparkline for a simple
 
 For these metrics I decided on a bar-in-bar diagram that would effectively measure current and previous year sales and profit by subcategories.
 
-
 ##### Weekly Trends for Sales & Profit
 - Present weekly sales and profit data for current year.
 - Display the average weekly values.
 - Highlight weeks that are above and below the average to easily recognize sales and profit performance.
 
 For these metrics I believe line charts would effectively display the data.
-
+![image alt](https://github.com/SON-Abe/Sales-Customer-Tableau-Dashboard/blob/75524abd23aeabf229d58cc001c4d152975eed19/Designs/Sales.png)
 
 - In the second stage I connect the data source to Tableau. I then open the different spreadsheets provided to me to see which of them are dimensions or facts. Facts will usually have IDs, dates, and measures, while files with dimensions usually contains data that can be used as good filters. Then I would connect the dimensions to the fact sheet to create the data model. I would look through the sheets to see if any field or tables need to be renamed then see if any field needs their type changed. I would then add a test worksheets to test the relationship between data sets.
 - In the third stage I would start creating the calculated fields I would need to make the chart then format it to make it simple while displaying all necessary information in a clear and interactive manner.
